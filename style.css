@@ -1,0 +1,13 @@
+/* Reset default spacing */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Website background */
+body{
+    background:#05070d;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
