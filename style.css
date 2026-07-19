@@ -34,13 +34,21 @@ nav{
 
 .logo{
 
-    color:#3cbcff;
+    color:#42c5ff;
 
-    font-size:35px;
+    font-size:40px;
 
-    font-weight:bold;
+    font-weight:900;
 
-    text-shadow:0 0 15px #3cbcff;
+    letter-spacing:3px;
+
+    text-shadow:
+
+    0 0 8px #42c5ff,
+
+    0 0 25px #008cff,
+
+    0 0 50px #008cff;
 
 }
 
@@ -119,6 +127,7 @@ nav a:hover{
     filter:drop-shadow(0 0 35px #00aaff);
 
 }
+
 body::before{
 
     content:"";
