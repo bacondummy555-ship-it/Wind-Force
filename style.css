@@ -119,3 +119,50 @@ nav a:hover{
     filter:drop-shadow(0 0 35px #00aaff);
 
 }
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+    background-image:
+
+    radial-gradient(white 1px,transparent 1px),
+
+    radial-gradient(#4cc8ff 1px,transparent 1px),
+
+    radial-gradient(white 1px,transparent 1px);
+
+    background-size:
+
+    120px 120px,
+
+    220px 220px,
+
+    180px 180px;
+
+    opacity:.18;
+
+    pointer-events:none;
+
+    animation:starsMove 60s linear infinite;
+
+}
+
+@keyframes starsMove{
+
+    from{
+
+        transform:translateY(0);
+
+    }
+
+    to{
+
+        transform:translateY(-300px);
+
+    }
+
+}
